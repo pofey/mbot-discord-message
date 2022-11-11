@@ -1,0 +1,24 @@
+{
+  "name": "discord_message",
+  "title": "Discord通知消息",
+  "author": "yee",
+  "description": "下载、订阅等关键事件发生时，推送消息到Discord。",
+  "version": "0.2",
+  "requirements": [],
+  "config_field": [
+    {
+      "fieldName": "webhook",
+      "fieldType": "String",
+      "label": "WebHook URL",
+      "helperText": "推送到Discord频道的Webhook地址",
+      "defaultValue": "http://"
+    },
+    {
+      "fieldName": "proxy",
+      "fieldType": "String",
+      "label": "代理地址",
+      "helperText": "http或socks代理用于发送webhook，留空不使用",
+      "defaultValue": ""
+    }
+  ]
+}
